@@ -1,0 +1,120 @@
+body {
+  color: #3d3d3d;
+  --mdc-theme-primary: #6796d8;
+  --mdc-theme-on-primary: #fff;
+  background-color: #d3d3d3;
+  margin: 2em;
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  color: #007f8b;
+  font-style: italic;
+}
+
+h2 {
+  clear: both;
+}
+
+em {
+  font-weight: bold;
+}
+
+video {
+  clear: both;
+  display: block;
+  transform: rotateY(180deg);
+}
+
+section {
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+header, footer {
+  clear: both;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: .2;
+}
+
+.note {
+  font-size: 130%;
+  font-style: italic;
+}
+
+.videoView, .detectOnClick, .blend-shapes {
+  float: left;
+  cursor: pointer;
+  width: 48%;
+  margin: 2% 1%;
+  position: relative;
+}
+
+.videoView p, .detectOnClick p {
+  color: #fff;
+  z-index: 2;
+  background-color: #007f8b;
+  border: 1px dashed #ffffffb3;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+}
+
+.highlighter {
+  z-index: 1;
+  background: #00ff0040;
+  border: 1px dashed #fff;
+  position: absolute;
+}
+
+.canvas {
+  z-index: 1;
+  pointer-events: none;
+  position: absolute;
+}
+
+.output_canvas {
+  transform: rotateY(180deg);
+}
+
+.detectOnClick {
+  z-index: 0;
+}
+
+.detectOnClick img {
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+}
+
+.blend-shapes-item {
+  align-items: center;
+  height: 20px;
+  display: flex;
+}
+
+.blend-shapes-label {
+  justify-content: flex-end;
+  align-items: center;
+  width: 120px;
+  margin-right: 4px;
+  display: flex;
+}
+
+.blend-shapes-value {
+  background-color: #6796d8;
+  align-items: center;
+  height: 16px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.a4b8b2d2.css.map */
