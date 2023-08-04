@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    overflow: hidden;  
+  }
+  
+  video {
+    /* top: 60px; */
+    clear: both;
+    display: block;
+    height: auto;  
+    background-color: rgb(113, 113, 113);
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  }
+  
+  .videoView {
+    position: relative;
+    z-index: 3; 
+  }
+  
+  #canvas_001 {  
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;  
+  }
+  
+  #camera-controls {
+    position: relative;
+    /* top: 260px; */
+    /* top: 160px; */
+    left: 20px;
+    z-index: 2;
+  }
+  
+  /* #webcam {
+    position: absolute;
+  } */
+  
+  #output_canvas{
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  }

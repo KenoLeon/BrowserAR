@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+video {
+  clear: both;
+  background-color: #717171;
+  height: auto;
+  display: block;
+  transform: rotateY(180deg);
+}
+
+.videoView {
+  z-index: 3;
+  position: relative;
+}
+
+#canvas_001 {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#camera-controls {
+  z-index: 2;
+  position: relative;
+  left: 20px;
+}
+
+#output_canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+
+/*# sourceMappingURL=index.fac678f3.css.map */
