@@ -687,7 +687,7 @@ function init() {
     rightWall.rotation.y = -Math.PI / 2;
     scene.add(rightWall);
     // Change to static folder if the eyeball texture is not loading
-    eyeBallTexture = new _three.TextureLoader().load("../eyeballText.png");
+    eyeBallTexture = new _three.TextureLoader().load("eyeballText.png");
     //Renderer Main
     renderer = new _three.WebGLRenderer({
         antialias: true
